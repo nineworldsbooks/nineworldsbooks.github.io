@@ -3,8 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Wound-o-Matic | Injury Generator for Project Brains</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="wounds.js"></script>
 </head>
 <body>
-	
+	<div id="header">
+		Injury generator for <a href="http://forum.midnight-watch.com">Project Brains</a>. Pick the settings, and roll!
+	</div>
+
+	<div id="options">
+		<div class="options-col">
+			<label for="weapon-type">Weapon Type:</label>
+			<select id="weapon-type">
+				<option value="fists">Fists</option>
+				<option value="stabbing">Stabbing</option>
+				<option value="crushing">Crushing</option>
+				<option value="slashing">Slashing</option>
+			</select>
+		</div>
+		<div class="options-col">
+			<label></label>
+		</div>
+	</div>
+
+	<input type="submit" id="roll-button" onclick="roll()">
+
+	<div id="results"></div>
 </body>
 </html>
