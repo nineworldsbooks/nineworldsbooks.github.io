@@ -25,7 +25,20 @@ var stabbingTarget = Array(
 	'cheek',
 	'shoulder',
 	'upper arm',
-	'forearm'
+	'forearm',
+	'hand',
+	'wrist',
+	'side of neck',
+	'side of chest',
+	'side of stomach',
+	'thigh',
+	'shin'
+	);
+
+// Crushing
+var crushingWounds = Array(
+	'cracked',
+	'broken'
 	);
 
 var sides = Array(
@@ -38,9 +51,7 @@ function roll()
 {
 	var type = document.getElementById("weapon-type").value;
 
-	var area = getWoundedArea();
-
-	var injury;
+	var area, injury;
 
 	switch(type)
 	{
@@ -53,10 +64,8 @@ function roll()
 			area = getSide() + " " + stabbingTarget[ dN( stabbingTarget.length ) ];
 			break;
 		case 'crushing':
-			injury = crushingInjury();
 			break;
 		case 'slashing':
-			injury = slashingInjury();
 			break;
 	}
 
