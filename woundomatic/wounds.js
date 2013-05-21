@@ -2,29 +2,42 @@ function roll()
 {
 	var type = document.getElementById("weapon-type").value;
 
+	var area = getWoundedArea();
+
+	var injury;
+
 	switch(type)
 	{
 		case 'fists':
-			fistsInjury();
+			injury = fistsInjury();
 			break;
 		case 'stabbing':
-			stabbingInjury();
+			injury = stabbingInjury();
 			break;
 		case 'crushing':
-			crushingInjury();
+			injury = crushingInjury();
 			break;
 		case 'slashing':
-			slashingInjury();
+			injury = slashingInjury();
 			break;
 	}
+
+	alert(injury + " " + area);
 }
 
 function fistsInjury(){
-	document.getElementById("results").innerHTML = 1;
-	alert(getWoundedArea());
+	var numInjuries = 2;
+
+	var injuries = new Array();
+	injuries[0] = 'bruise';
+	injuries[1] = 'scratch';
+
+	return injuries[dN(numInjuries)];
 }
 
 function getWoundedArea(){
+	var numParts = 11;
+
 	var areas = new Array();
 	areas[0] = 'head';
 	areas[1] = 'neck';
@@ -36,8 +49,9 @@ function getWoundedArea(){
 	areas[7] = 'knee';
 	areas[8] = 'ankle';
 	areas[9] = 'foot';
+	areas[10] = 'eye';
 
-	var rand =  Math.floor(Math.random() * 10);
+	var rand =  dN(numParts);
 
 	var area = areas[rand];
 
@@ -51,9 +65,7 @@ function getWoundedArea(){
 
 function getRandomSide()
 {
-	var rand = Math.floor(Math.random() + 0.5);
-
-	switch(rand)
+	switch(dN(2))
 	{
 		case 0:
 			return 'left';
@@ -62,4 +74,8 @@ function getRandomSide()
 			return 'right';
 			break;
 	}
+}
+
+function dN(n){
+	return Math.floor(Math.random() * n);
 }
