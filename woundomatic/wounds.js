@@ -1,3 +1,39 @@
+// Punching
+var punchingWounds = Array(
+	'scratched',
+	'bruised',
+	'bloodied'
+	);
+
+var punchingTarget = Array(
+	'eye',
+	'side of nose',
+	'side of mouth',
+	'side of neck',
+	'side of chest',
+	'shoulder'
+	);
+
+// Stabbing
+var stabbingWounds = Array(
+	'pierced',
+	'scratched'
+	);
+
+var stabbingTarget = Array(
+	'eye',
+	'cheek',
+	'shoulder',
+	'upper arm',
+	'forearm'
+	);
+
+var sides = Array(
+	'left',
+	'right'
+	);
+
+
 function roll()
 {
 	var type = document.getElementById("weapon-type").value;
@@ -9,10 +45,12 @@ function roll()
 	switch(type)
 	{
 		case 'fists':
-			injury = fistsInjury();
+			injury = punchingWounds[ dN( punchingWounds.length ) ];
+			area = getSide() + " " + punchingTarget[ dN( punchingTarget.length ) ];
 			break;
 		case 'stabbing':
-			injury = stabbingInjury();
+			injury = stabbingWounds[ dN( stabbingWounds.length ) ];
+			area = getSide() + " " + stabbingTarget[ dN( stabbingTarget.length ) ];
 			break;
 		case 'crushing':
 			injury = crushingInjury();
@@ -27,64 +65,8 @@ function roll()
 	document.getElementById("results").innerHTML = result;
 }
 
-function fistsInjury()
-{
-	var injuries = new Array();
-	injuries[0] = 'bruised';
-	injuries[1] = 'scratched';
-
-	return injuries[ dN( injuries.length ) ];
-}
-
-function stabbingInjury()
-{
-	var injuries = new Array();
-	injuries[0] = 'pierced';
-	injuries[1] = 'scratched';
-
-	return injuries[ dN( injuries.length ) ];
-}
-
-function getWoundedArea()
-{
-	var areas = new Array();
-	areas[0] = 'head';
-	areas[1] = 'neck';
-	areas[2] = 'stomach';
-	areas[3] = 'chest';
-	areas[4] = 'upper arm';
-	areas[5] = 'shoulder';
-	areas[6] = 'thigh';
-	areas[7] = 'knee';
-	areas[8] = 'ankle';
-	areas[9] = 'foot';
-	areas[10] = 'eye';
-	areas[11] = 'forearm';
-	areas[12] = 'shin';
-
-	var rand =  dN( areas.length );
-
-	var area = areas[rand];
-
-	if( rand >= 4 )
-	{
-		area = getRandomSide() + " " + area;
-	}
-	
-	return area;
-}
-
-function getRandomSide()
-{
-	switch(dN(2))
-	{
-		case 0:
-			return 'left';
-			break;
-		case 1:
-			return 'right';
-			break;
-	}
+function getSide(){
+	return sides[ dN(2) ];
 }
 
 function dN(n)
