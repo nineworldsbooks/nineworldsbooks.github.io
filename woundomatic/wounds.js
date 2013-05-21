@@ -22,36 +22,47 @@ function roll()
 			break;
 	}
 
-	alert(injury + " " + area);
+	var result = injury + " " + area;
+
+	document.getElementById("results").innerHTML = result;
 }
 
-function fistsInjury(){
-	var numInjuries = 2;
-
+function fistsInjury()
+{
 	var injuries = new Array();
-	injuries[0] = 'bruise';
-	injuries[1] = 'scratch';
+	injuries[0] = 'bruised';
+	injuries[1] = 'scratched';
 
-	return injuries[dN(numInjuries)];
+	return injuries[ dN( injuries.length ) ];
 }
 
-function getWoundedArea(){
-	var numParts = 11;
+function stabbingInjury()
+{
+	var injuries = new Array();
+	injuries[0] = 'pierced';
+	injuries[1] = 'scratched';
 
+	return injuries[ dN( injuries.length ) ];
+}
+
+function getWoundedArea()
+{
 	var areas = new Array();
 	areas[0] = 'head';
 	areas[1] = 'neck';
 	areas[2] = 'stomach';
 	areas[3] = 'chest';
-	areas[4] = 'bicep';
+	areas[4] = 'upper arm';
 	areas[5] = 'shoulder';
 	areas[6] = 'thigh';
 	areas[7] = 'knee';
 	areas[8] = 'ankle';
 	areas[9] = 'foot';
 	areas[10] = 'eye';
+	areas[11] = 'forearm';
+	areas[12] = 'shin';
 
-	var rand =  dN(numParts);
+	var rand =  dN( areas.length );
 
 	var area = areas[rand];
 
@@ -76,6 +87,7 @@ function getRandomSide()
 	}
 }
 
-function dN(n){
+function dN(n)
+{
 	return Math.floor(Math.random() * n);
 }
