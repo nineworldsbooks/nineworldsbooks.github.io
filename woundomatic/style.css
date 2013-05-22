@@ -2,10 +2,25 @@ body
 {
 	background-color: lightblue;
 	font-family: sans-serif;
+	width: 700px;
+	margin: 0 auto;
+}
+
+#header
+{
+	width: 100%;
+	text-align: center;
+	margin: 5px 0;
 }
 
 #submit-button
 {
 	width: 100px;
-	margin: 0 auto;
+}
+
+#options label
+{
+	width: 100px;
+	display: block;
+    float: left;
 }
