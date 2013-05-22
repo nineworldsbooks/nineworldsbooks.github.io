@@ -24,3 +24,14 @@ body
 	display: block;
     float: left;
 }
+
+#options
+{
+	width: 100%;
+}
+
+.options-col
+{
+	float: left;
+	width: 50%;
+}
