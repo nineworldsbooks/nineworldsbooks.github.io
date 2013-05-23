@@ -119,25 +119,27 @@ function formatInjuryArray(injuries)
 	return uniqueInjuries.join(', ');
 }
 
+function addInjury(area, injury)
+{
+	if(injuries[area] == null)
+	{
+		injuries[area] = new Array();
+	}
+	injuries[area].push(injury);
+}
+
 function getFistWounds()
 {
 	var results = "";
 	var area, injury;
 
 	var fistwounds = document.getElementById("fists").value;
-	results += '<b>Fists:</b><br>';
 	for ( var i = 0; i < fistwounds; i++ ) {
 		injury = punchingWounds[ dN( punchingWounds.length ) ];
 		area = getSide() + " " + punchingTarget[ dN( punchingTarget.length ) ];
-		results += injury + " " + area + '<br>';
-		if(injuries[area] == null)
-		{
-			injuries[area] = new Array();
-		}
-		injuries[area].push(injury);
+		
+		addInjury(area, injury);
 	};
-
-	return results;
 }
 
 function getStabbingWounds()
@@ -146,19 +148,12 @@ function getStabbingWounds()
 	var area, injury;
 
 	var stabbingwounds = document.getElementById("stabbing").value;
-	results += '<br><b>Stabbing:</b><br>';
 	for ( var i = 0; i < stabbingwounds; i++ ) {
 		injury = stabbingWounds[ dN( stabbingWounds.length ) ];
 		area = getSide() + " " + stabbingTarget[ dN( stabbingTarget.length ) ];
-		results += injury + " " + area + '<br>';
-		if(injuries[area] == null)
-		{
-			injuries[area] = new Array();
-		}
-		injuries[area].push(injury);
+		
+		addInjury(area, injury);
 	};
-
-	return results;
 }
 
 function getCrushingWounds()
@@ -167,19 +162,12 @@ function getCrushingWounds()
 	var area, injury;
 
 	var crushingwounds = document.getElementById("crushing").value;
-	results += '<br><b>Crushing:</b><br>';
 	for ( var i = 0; i < crushingwounds; i++ ) {
 		injury = crushingWounds[ dN( crushingWounds.length ) ];
 		area = getSide() + " " + crushingTarget[ dN( crushingTarget.length ) ];
-		results += injury + " " + area + '<br>';
-		if(injuries[area] == null)
-		{
-			injuries[area] = new Array();
-		}
-		injuries[area].push(injury);
+		
+		addInjury(area, injury);
 	};
-
-	return results;
 }
 
 function getSlashingWounds()
@@ -188,19 +176,12 @@ function getSlashingWounds()
 	var area, injury;
 
 	var slashingwounds = document.getElementById("slashing").value;
-	results += '<br><b>Slashing:</b><br>';
 	for ( var i = 0; i < slashingwounds; i++ ) {
 		injury = slashingWounds[ dN( slashingWounds.length ) ];
 		area = getSide() + " " + slashingTarget[ dN( slashingTarget.length ) ];
-		results += injury + " " + area + '<br>';
-		if(injuries[area] == null)
-		{
-			injuries[area] = new Array();
-		}
-		injuries[area].push(injury);
+		
+		addInjury(area, injury);
 	};
-
-	return results;
 }
 
 function getSide(){
