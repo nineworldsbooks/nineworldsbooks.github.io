@@ -1,11 +1,11 @@
 // Punching
-var punchingWounds = Array(
+var punchingWounds = new Array(
 	'scratched',
 	'bruised',
 	'bloodied'
 	);
 
-var punchingTarget = Array(
+var punchingTarget = new Array(
 	'eye',
 	'side of nose',
 	'side of mouth',
@@ -15,12 +15,12 @@ var punchingTarget = Array(
 	);
 
 // Stabbing
-var stabbingWounds = Array(
+var stabbingWounds = new Array(
 	'pierced',
 	'scratched'
 	);
 
-var stabbingTarget = Array(
+var stabbingTarget = new Array(
 	'eye',
 	'cheek',
 	'shoulder',
@@ -36,13 +36,13 @@ var stabbingTarget = Array(
 	);
 
 // Crushing
-var crushingWounds = Array(
+var crushingWounds = new Array(
 	'cracked',
 	'broken',
 	'splintered'
 	);
 
-var crushingTarget = Array(
+var crushingTarget = new Array(
 	'side of skull',
 	'side of jaw',
 	'collar bone',
@@ -52,13 +52,13 @@ var crushingTarget = Array(
 	);
 
 // Slashing
-var slashingWounds = Array(
+var slashingWounds = new Array(
 	'cut',
 	'slashed',
 	'severed'
 	);
 
-var slashingTarget = Array(
+var slashingTarget = new Array(
 	'fingers',
 	'hand',
 	'forearm',
@@ -67,23 +67,56 @@ var slashingTarget = Array(
 	'thigh'
 	);
 
-var sides = Array(
+var sides = new Array(
 	'left',
 	'right'
 	);
 
+// Injuries
+var injuries;
+
 
 function roll()
 {
-	var results = getFistWounds();
+	injuries = new Array();
 
-	results += getStabbingWounds();
+	getFistWounds();
 
-	results += getCrushingWounds();
+	getStabbingWounds();
 
-	results += getSlashingWounds();
+	getCrushingWounds();
+
+	getSlashingWounds();
 	
+	var results = '';
+
+	for (key in injuries) {
+	    if (injuries.hasOwnProperty(key)) {
+	        results += '<b>' + firstToUpper(key) + '</b><br>';
+	        results += formatInjuryArray(injuries[key]);
+	        results += "<br>";
+	    }
+	}	
+
 	document.getElementById("results").innerHTML = results;
+}
+
+function firstToUpper(s)
+{
+	return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+function formatInjuryArray(injuries)
+{
+	for (var i = 0; i < injuries.length; i++) {
+		injuries[i] = firstToUpper(injuries[i]);
+	};
+
+	uniqueInjuries = injuries.filter(function(elem, pos) {
+    return injuries.indexOf(elem) == pos;
+	})
+	
+	return uniqueInjuries.join(', ');
 }
 
 function getFistWounds()
@@ -97,6 +130,11 @@ function getFistWounds()
 		injury = punchingWounds[ dN( punchingWounds.length ) ];
 		area = getSide() + " " + punchingTarget[ dN( punchingTarget.length ) ];
 		results += injury + " " + area + '<br>';
+		if(injuries[area] == null)
+		{
+			injuries[area] = new Array();
+		}
+		injuries[area].push(injury);
 	};
 
 	return results;
@@ -113,6 +151,11 @@ function getStabbingWounds()
 		injury = stabbingWounds[ dN( stabbingWounds.length ) ];
 		area = getSide() + " " + stabbingTarget[ dN( stabbingTarget.length ) ];
 		results += injury + " " + area + '<br>';
+		if(injuries[area] == null)
+		{
+			injuries[area] = new Array();
+		}
+		injuries[area].push(injury);
 	};
 
 	return results;
@@ -129,6 +172,11 @@ function getCrushingWounds()
 		injury = crushingWounds[ dN( crushingWounds.length ) ];
 		area = getSide() + " " + crushingTarget[ dN( crushingTarget.length ) ];
 		results += injury + " " + area + '<br>';
+		if(injuries[area] == null)
+		{
+			injuries[area] = new Array();
+		}
+		injuries[area].push(injury);
 	};
 
 	return results;
@@ -145,6 +193,11 @@ function getSlashingWounds()
 		injury = slashingWounds[ dN( slashingWounds.length ) ];
 		area = getSide() + " " + slashingTarget[ dN( slashingTarget.length ) ];
 		results += injury + " " + area + '<br>';
+		if(injuries[area] == null)
+		{
+			injuries[area] = new Array();
+		}
+		injuries[area].push(injury);
 	};
 
 	return results;
