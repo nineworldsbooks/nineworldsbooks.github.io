@@ -20,6 +20,9 @@ A top down space shooter. \[Java\]
 [A Baker's Tale Repo](https://github.com/jsrn/A-Baker-s-Tale)  
 A tilebased RPG in the style of Final Fantasy 1-6. \[Java\]
 
+[TexBin Repo](https://github.com/jsrn/TexBin)  
+Web front-end for pdflatex. \[PHP\]
+
 [Easy Preload Repo](https://github.com/jsrn/EasyPreload)  
 Intercept system calls with LD_PRELOAD and your choice of customisable modules. \[Python/c\]
 
