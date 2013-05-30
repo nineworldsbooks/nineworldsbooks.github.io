@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Bullying LaTeX"
+tagline: "For the greater good"
 description: ""
-category: 
-tags: []
+category: security
+tags: [latex, pdf, front end]
 ---
 {% include JB/setup %}
 
