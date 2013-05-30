@@ -16,7 +16,8 @@ I personally think it's sort of neat for a few hours work. I wouldn't want to un
 Code Execution
 In TeX, the \write18 command is used to pass a command to the operating system. 
 
-Denial of Service
+#### Denial of Service
+
 Any looping construct can be used to needlessly tie up resources:
 
     \loop\iftrue\repeat
@@ -25,11 +26,10 @@ This can also be achieved by defining recursive macros:
 
     \def\evil{\evil}
 
-Recommended Reading
-Don't take LaTeX files from strangers | Checkoway, Shacham, Rescorla | 2011
-http://cseweb.ucsd.edu/~hovav/dist/tex-login.pdf
+#### Recommended Reading
 
-What does write18 mean? | Joseph Wright | 2009
-http://www.texdev.net/2009/10/06/what-does-write18-mean/
+[Don't take LaTeX files from strangers](http://cseweb.ucsd.edu/~hovav/dist/tex-login.pdf) - Checkoway, Shacham, Rescorla - 2011
+
+[What does write18 mean?](http://www.texdev.net/2009/10/06/what-does-write18-mean) - Joseph Wright - 2009
 
 This post will probably expand as I continue finding things on the subject.
