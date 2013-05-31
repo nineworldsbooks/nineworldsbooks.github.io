@@ -1,7 +1,6 @@
 ---
 layout: page
-title: blunderbuss
-tagline: now with 100% more static pages
+tagline: my blog, now with 100% more static pages
 ---
 ### Recent Posts
 
