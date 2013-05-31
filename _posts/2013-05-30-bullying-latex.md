@@ -48,10 +48,21 @@ This can also be achieved by defining recursive macros:
 
     \def\evil{\evil}
 
+I attempted to extend the recursive macro into a fork bomb:
+
+    \def\fork{\fork\fork}
+    \fork
+
+but this caused TeX to quickly spit out an error message:
+
+	! TeX capacity exceeded, sorry [input stack size=5000].
+
+#### Conclusions
+
+So far, I'm yet to get any meaningful results on either MiKTeX 2.9 or TeX 3.1415926 (TeX Live 2009/Debian), without deliberately bypassing the security measures. A dedicated "attacker" could, in theory, slow down the system with enough loops, but that's the extent of what I have found so far.
+
 #### Recommended Reading
 
 [Don't take LaTeX files from strangers](http://cseweb.ucsd.edu/~hovav/dist/tex-login.pdf) - Checkoway, Shacham, Rescorla - 2011
 
 [What does write18 mean?](http://www.texdev.net/2009/10/06/what-does-write18-mean) - Joseph Wright - 2009
-
-This post will probably expand as I continue finding things on the subject.
