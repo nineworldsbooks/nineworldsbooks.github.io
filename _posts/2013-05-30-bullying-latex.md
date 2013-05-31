@@ -16,7 +16,27 @@ I personally think it's sort of neat for a few hours work. I wouldn't want to un
 
 #### Code Execution
 
-In TeX, the `\write18` command is used to pass a command to the operating system. 
+In TeX, the `\write18` command is used to pass a command to the operating system. This is a pretty big security risk, so TeXLive and MiKTeX disable it by default. You can re-enable it with the command line option `--shell-escape` for TeXLive, or `--enable-write18` for MiKTeX 2.9.
+
+    \documentclass[11pt]{article}
+    \begin{document}
+    Hello, world!
+    \write18{touch evil}
+    \end{document}
+
+`pdflatex write18.tex; ls`
+
+    write18.aux  write18.log  write18.pdf  write18.tex
+
+`pdflatex --shell-escape write18.tex; ls`
+
+    evil  write18.aux  write18.log  write18.pdf  write18.tex
+
+You can get up to similar mischief with `\input`, but again, it is not enabled by default.
+
+    \input{|"cat /etc/passwd"} 
+
+So by default, we don't need to worry too much about strangers sending commands to our system.
 
 #### Denial of Service
 
