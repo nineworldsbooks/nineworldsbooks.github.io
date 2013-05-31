@@ -22,6 +22,9 @@ A tilebased RPG in the style of Final Fantasy 1-6. \[Java\]
 **[TexBin](https://github.com/jsrn/TexBin)**  
 Web front-end for pdflatex. \[PHP\]
 
+**[Wargames](https://github.com/jsrn/Wargames)**  
+I have been steadily working my way through various wargame challenges, and documenting my progress. \[various\]
+
 **[Easy Preload](https://github.com/jsrn/EasyPreload)**  
 Intercept system calls with LD_PRELOAD and your choice of customisable modules. \[Python/c\]
 
