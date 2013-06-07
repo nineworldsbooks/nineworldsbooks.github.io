@@ -32,4 +32,4 @@ The interesting problem posed by decentralising a service is maintaining trust b
 
 ### Deployment
 
-To ease deployment, the code should have as few dependancies as possible. Languages/frameworks that require complicated installation or configuration should be avoided.
+To ease deployment, the code should have as few dependencies as possible. Languages/frameworks that require complicated installation or configuration should be avoided.
