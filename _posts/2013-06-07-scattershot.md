@@ -8,7 +8,7 @@ tags: [twitter, decentralised]
 ---
 {% include JB/setup %}
 
-[This post is a work in progress.]
+\[This post is a work in progress.\]
 
 Twitter is a great service. I have a couple of accounts that I use to follow different circles, and the ability to get real-time news and commentary is unparalleled. To the best of my knowledge, Twitter has so far maintained a good reputation for being fair and secure. I'm sure they've made mistakes, but I have no particular beef with them. 
 
