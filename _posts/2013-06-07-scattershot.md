@@ -24,6 +24,12 @@ Each Scattershot instance would maintain a list of Scattershot instances that it
 
 ### Rapid Updates
 
+Instance polling can be done in-browser using javascript. This allows the browser to check for status updates frequently without causing undue stress to both instances.
+
 ### Trust
 
+The interesting problem posed by decentralising a service is maintaining trust between instances. With a service like Twitter, we can be sure that a user is genuine, even if they aren't who they say they are. How can we be sure that the data coming from untrusted servers is reliable? How can we verify that a status update really came from a certain instance?
+
 ### Deployment
+
+To ease deployment, the code should have as few dependancies as possible. Languages/frameworks that require complicated installation or configuration should be avoided.
