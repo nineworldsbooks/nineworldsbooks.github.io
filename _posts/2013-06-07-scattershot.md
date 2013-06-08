@@ -18,10 +18,6 @@ A decentralised microblogging service should strive to maintain the following tr
 * **Trustworthy** - With any decentralised service, it's vital to be able to verify that the data you receive from other nodes is reliable and accurate.
 * **Rapid to deploy** - Not everyone has the technical savvy to maintain their own server, so the app should be as easy to install and configure as possible.
 
-### Scattershot Network
-
-Each Scattershot instance would maintain a list of Scattershot instances that it follows, much in the same way that a Twitter user maintains its own list of followers. The scattershot instance can then poll its list of followed instances to create the status update stream for the user.
-
 ### Rapid Updates
 
 Instance polling can be done in-browser using javascript. This allows the browser to check for status updates frequently without causing undue stress to both instances. What if an instance goes down? A reliability of future updates relies on the dedication of an instance owner to maintain their machine.
@@ -43,3 +39,10 @@ The interesting problem posed by decentralising a service is maintaining trust b
 ### Deployment
 
 To ease deployment, the code should have as few dependencies as possible. Languages/frameworks that require complicated installation or configuration should be avoided.
+
+### Scattershot Network
+
+Each Scattershot instance would maintain two lists, much in the same way that Twitter tracks relationships between users:
+
+* Instances that are following me
+* Instances that I follow
