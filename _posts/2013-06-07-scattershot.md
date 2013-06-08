@@ -10,7 +10,9 @@ tags: [twitter, decentralised]
 
 \[This post is a work in progress.\]
 
-Twitter is a great service. I have a couple of accounts that I use to follow different circles, and the ability to get real-time news and commentary is unparalleled. To the best of my knowledge, Twitter has so far maintained a good reputation for being fair and secure. I'm sure they've made mistakes, but I have no particular beef with them. 
+Twitter is a great service. I have a couple of accounts that I use to follow different circles, and the ability to get real-time news and commentary is unparalleled. To the best of my knowledge, Twitter has so far maintained a good reputation for being fair and secure. I'm sure they've made mistakes, but I have no particular beef with them.
+
+I'm not doing this out of any dislike of Twitter, nor am I under the impression that the ideas (original or not) presented here would be an improvement over the service Twitter provides. It's just interesting!
 
 A decentralised microblogging service should strive to maintain the following traits:
 
