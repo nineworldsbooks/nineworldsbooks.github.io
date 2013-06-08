@@ -52,3 +52,5 @@ Each Scattershot instance would maintain two lists, much in the same way that Tw
 ### Good Reads
 
 [Open Twitter? Nope. You don’t get it.](http://volaski.tumblr.com/post/29720297216/open-twitter-nope-you-dont-get-it), in which Volaski stresses the importance of rapid and reliable status delivery.
+
+[Wikipedia - Web of Trust](http://en.wikipedia.org/wiki/Web_of_trust)
