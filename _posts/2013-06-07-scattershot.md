@@ -30,7 +30,11 @@ The first problem that springs to mind is wasted resources. If a user you are fo
 
     poll_interval_minutes = days_since_status + 1
 
-The second problem (somewhat exacerbated by the immediate solution to the first) is that it is typically more important to get real-time communication when microblogging than conventional blogs, email, etc. When important events are being covered and discussed live, a ten minute delay in the status feed might as well be a year. In this case, it is advantageous for instance posting the status to send the status to any listening instances.
+The second problem (somewhat exacerbated by the immediate solution to the first) is that it is typically more important to get real-time communication when microblogging than conventional blogs, email, etc. When important events are being covered and discussed live, a ten minute delay in the status feed might as well be a year. In this case, it is advantageous for instance posting the status to send the status to any listening instances. As such, it becomes necessary to maintain not only a list of the instances that are following yours, but of the instances you are following.
+
+**On startup:** Poll the instances you are following, asking for a list of statuses between the timestamp of the last *received* status, and the last status posted. If there is no response, poll every `poll_interval_minutes` until an answer is received.
+
+**On message posted:** Send the status to any instances that are following you. If they do not recieve it, they will ask for it next time they start their instance.
 
 ### Trust
 
