@@ -38,7 +38,7 @@ This is the easy route. It doesn't guarantee that the output will look good, but
 * Tile
 * (optional) Marvel at the distorted chimera of an image you have inflicted upon your screenshot collection
 
-This was relatively easy to accomplish, and the full code for Collage.py comes in at a mere 57 lines. The code as it was at this point can be found [here](files/Collage.py).
+This was relatively easy to accomplish, and the full code for Collage.py comes in at a mere 57 lines. The code as it was at this point can be found [here](/files/Collage.py).
 
 #### The Hard Way
 
