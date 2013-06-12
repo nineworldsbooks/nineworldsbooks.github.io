@@ -73,3 +73,5 @@ So, here's a rough psuedocode outline of the entire program:
 		orig_sizes[] = [img.w, img.h]
 
 	# 
+
+Project code will be made available [here](https://github.com/jsrn/Collage.py) as I work on it.
