@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "EasyPreload"
-tagline: "A tool for intercepting calls with LD_PRELOAD"
+tagline: "a tool for intercepting calls with LD_PRELOAD"
 description: ""
 category: security
 tags: [python, tools, LD_PRELOAD]

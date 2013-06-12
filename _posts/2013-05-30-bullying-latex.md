@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bullying LaTeX"
-tagline: "For the greater good"
+tagline: "for the greater good"
 description: ""
 category: security
 tags: [latex, pdf, front end]
