@@ -29,9 +29,47 @@ and some functions:
 
 When I say that it's ideal to have images of the same size, this is only really half true. As the viewer of the image will be reading left to right, it is much more important that the resultant image have uniform rows. Uniform columns are a distant second.
 
+#### The Easy Way
+
+This is the easy route. It doesn't guarantee that the output will look good, but hey, at least it's *something*, right? Well, we can make that judgement after it's coded. Rather than the comparatively more complex processing of **The Hard Way**, this method just requires three simple steps:
+
+* Calculate the mean height
+* Scale all images to the mean height
+* Tile
+* (optional) Marvel at the distorted chimera of an image you have inflicted upon your screenshot collection
+
+#### The Hard Way
+
 So for now, we cease worrying about width constraints and focus on height. As long as aspect ratio is maintained, we can resize images a reasonable amount before the image is too distorted to be worth viewing. Since the sprites used in the game are quite small to begin with, we can start with the following constraints:
 
 * An image can be reduced to 75% of its former size to fit with the others.
 * An image can be increased to 150% of its former size to fit with the others.
 
-If resizing images, the smaller image should increase 2px for every 1px that the large image shrinks. 
+If resizing images, the smaller image should increase 2px for every 1px that the large image shrinks.
+
+***Example***:
+
+We have two images, one is 100px tall, the other is 126px tall.
+
+	top = 126
+	bottom = 100
+	while top > bottom:
+		bottom += 2
+		top -= 1
+	print "Top: " + str(top) 			# 117
+	print "Bottom: " + str(bottom) 		# 118
+
+If we take the lowest value as the new height, we know to scale both images to 117px tall. This makes our final image much tidier. However, this doesn't take into account our earlier resizing constraints.
+
+If the smaller image can no longer be increased in size, we should make a note to leave it at its maximum size, and fill in the blank space with background colour to keep the rows uniform in height. This requires keeping the new height of each image separately, as they will not always be the same.
+
+So, here's a rough psuedocode outline of the entire program:
+
+	# Load images from folder
+	images = [ 'img1.png', 'img2.png', ..., 'imgn.png' ]
+
+	# Store original image dimensions
+	for img in images:
+		orig_sizes[] = [img.w, img.h]
+
+	# 
