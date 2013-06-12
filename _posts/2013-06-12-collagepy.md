@@ -84,4 +84,6 @@ So, here's a rough psuedocode outline of the entire program:
 
 	tile_images()
 
+There is a problem here. We can reduce huge images to their minimum size, and we can pad small images with blank space so as to keep rows uniform without distorting the image. However, there will be situations where the size difference is so vast that these images still look absurd next to eachother.
+
 Project code will be made available [here](https://github.com/jsrn/Collage.py) as I work on it.
