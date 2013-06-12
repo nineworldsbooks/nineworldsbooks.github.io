@@ -36,7 +36,7 @@ The second problem (somewhat exacerbated by the immediate solution to the first)
 
 ### Trust
 
-The interesting problem posed by decentralising a service is maintaining trust between instances. With a service like Twitter, we can be sure that a user is genuine, even if they aren't who they say they are. How can we be sure that the data coming from untrusted servers is reliable? How can we verify that a status update really came from a certain instance?
+The interesting problem posed by decentralising a service is maintaining trust between instances. With a service like Twitter, we can be sure that a user is genuine, even if they aren't who they say they are. How can we be sure that the data coming from untrusted servers is reliable? How can we verify that a status update really came from a certain instance? We need a way to securely sign messages. Fortunately, [there are mechanisms](http://en.wikipedia.org/wiki/Digital_signature) by which one can tie a known sender to a message.
 
 ### Deployment
 
@@ -56,3 +56,5 @@ The Scattershot repo can be found [here](https://github.com/jsrn/Scattershot).
 [Open Twitter? Nope. You don’t get it.](http://volaski.tumblr.com/post/29720297216/open-twitter-nope-you-dont-get-it), in which Volaski stresses the importance of rapid and reliable status delivery.
 
 [Wikipedia - Web of Trust](http://en.wikipedia.org/wiki/Web_of_trust)
+
+[Wikipedia - Digital Signature](http://en.wikipedia.org/wiki/Digital_signature)
