@@ -38,7 +38,7 @@ This is the easy route. It doesn't guarantee that the output will look good, but
 * Tile
 * (optional) Marvel at the distorted chimera of an image you have inflicted upon your screenshot collection
 
-This was relatively easy to accomplish, and the full code for Collage.py comes in at a mere 57 lines. The code as it was at this point can be found [here](/files/Collage.py.txt).
+This was relatively easy to accomplish, and the full code for Collage.py comes in at a mere 57 lines. The code as it was at this point can be found [here](/files/Collage.py.txt). Actually, with images that are already a similar size, this actually produces some decent results. However, the cracks definitely begin to show with certain images that are too far away from the mean. We can improve upon this by applying some more in depth techniques in **The Hard Way**.
 
 #### The Hard Way
 
