@@ -70,10 +70,18 @@ So, here's a rough psuedocode outline of the entire program:
 	# Load images from folder
 	images = [ 'img1.png', 'img2.png', ..., 'imgn.png' ]
 
-	# Store original image dimensions
-	for img in images:
-		orig_sizes[] = [img.w, img.h]
+	mean_height = get_mean_height( images )
 
-	# 
+	# Resize images
+	for img in images:
+		if img.height < mean_height:
+			while img.height < img.max_height:
+				img.height += 2
+		else:
+			while img.height > img.min_height:
+				img.height -= 1
+		img = pad_image( img, mean_height )
+
+	tile_images()
 
 Project code will be made available [here](https://github.com/jsrn/Collage.py) as I work on it.
