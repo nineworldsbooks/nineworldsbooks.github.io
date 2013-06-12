@@ -80,7 +80,7 @@ So, here's a rough psuedocode outline of the entire program:
 		else:
 			while img.height > img.min_height:
 				img.height -= 1
-		img = pad_image( img, mean_height )
+			img = pad_image( img, mean_height )
 
 	tile_images()
 
