@@ -50,18 +50,15 @@ To ease deployment, the code should have as few dependencies as possible. Langua
 	| id    | name  | public key                                                        |
 	|-------|-------|-------------------------------------------------------------------|
 	| 1     | jsrn  | -----BEGIN PUBLIC KEY-----                                        |
-	|       |       | MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCByWSW0cmc7o4x3gYW5Zp2+5xS  |
-	|       |       | E+IQYycuMJmhxzAHEet+mY3wKsMxW80ob759XVD54b/nmB9Vbvo3PqMisi5dW4A3  |
-	|       |       | m4Z1xEexaWmWYIeSxkBviYEFlVgxguYqlM+MD7N0CkV2fuOROfpz/dYmqZ81OhCR  |
-	|       |       | hTX3vzBhKlwn6v2m2wIDAQAB                                          |
+	|       |       | // public key goes here                                           |
 	|       |       | -----END PUBLIC KEY-----                                          |
 	|-------|-------|-------------------------------------------------------------------|
 	|  ...  |  ...  |  ...                                                              |
 
-	FOLLOWING                      FOLLOWERS
-	| userid |                     | userid |
-	|--------|                     |--------|
-	|  ...   |                     |  ...   |
+	FOLLOWING                   FOLLOWERS                   USERDETAILS
+	| userid |                  | userid |                  | public key | private key  |
+	|--------|                  |--------|                  |------------|--------------|
+	|  ...   |                  |  ...   |                  |  ...       |  ...         |
 
 The Scattershot repo can be found [here](https://github.com/jsrn/Scattershot).
 
