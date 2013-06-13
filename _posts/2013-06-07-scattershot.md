@@ -4,7 +4,7 @@ title: "Scattershot"
 tagline: "an experiment in decentralised microblogging"
 description: ""
 category: programming
-tags: [twitter, decentralised]
+tags: [twitter, decentralised, micro blogging]
 ---
 {% include JB/setup %}
 
