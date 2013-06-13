@@ -64,14 +64,14 @@ To ease deployment, the code should have as few dependencies as possible. Langua
 ### Database Layout
 
 	KNOWNUSERS -------------------------------------------------------------------------|
-	| id    | name  | publickey                                                         |
+	| id    | name  | publickey | instanceurl | lastupdate | lastchecked                |
 	|-------|-------|-------------------------------------------------------------------|
-	|  ...  |  ...  |  ...                                                              |
+	|  ...  |  ...  |  ...      |  ...        |  ...       |  ...                       |
 
-	FOLLOWING                   FOLLOWERS                   USERDETAILS ----------------|
-	| userid |                  | userid |                  | publickey  | privatekey   |
-	|--------|                  |--------|                  |------------|--------------|
-	|  ...   |                  |  ...   |                  |  ...       |  ...         |
+	FOLLOWING        USERDETAILS --------------------------------------        FOLLOWERS 
+	| userid |       | name | avatar | aboutme | website | privatekey  |       | userid |
+	|--------|       |------|--------|---------|---------|-------------|       |--------|
+	|  ...   |       |  ... |  ...   |  ...    |  ...    |  ...        |       |  ...   |
 
 	MESSAGES --------------------------------------|               VERIFICATIONSTATUSES
 	| id | userid | message | verificationstatusid |               | id | status        |
