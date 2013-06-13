@@ -40,6 +40,23 @@ The interesting problem posed by decentralising a service is maintaining trust b
 
 On account creation, [PHPSecLib](http://phpseclib.sourceforge.net/) is used to generate a pair of RSA keys. These are then stored in the SQLite db to be used for signing/encrypting messages. When your instance pairs with another, there is an automatic key exchange, and your store the list of known public keys alongside identities.
 
+PHPSecLib makes message signing and checking very easy. Here's the example from RSA.php:
+
+	include('Crypt/RSA.php');
+	
+	$rsa = new Crypt_RSA();
+	extract($rsa->createKey());
+	
+	$plaintext = 'terrafrost';
+	
+	$rsa->loadKey($privatekey);
+	$signature = $rsa->sign($plaintext);
+	
+	$rsa->loadKey($publickey);
+	echo $rsa->verify($plaintext, $signature) ? 'verified' : 'unverified';
+
+When we receive a status update from another instance, we just have to load the public key of the user we suspect the status update is from, and verify it. As long as the other user keeps their private key safe, you can be sure that the message is from who Scattershot says it's from.
+
 ### Deployment
 
 To ease deployment, the code should have as few dependencies as possible. Languages and frameworks that require complicated installation or configuration should be avoided. Despite its flaws, PHP has the advantage here. It's superbly easy to set up, there are a plethora of libraries available for it, and everyone knows it. The full apache-mysql-php stack can be deployed in minutes on any [Windows](http://www.wampserver.com/en/) or [Linux](http://linux.die.net/man/8/apt-get) machine.
