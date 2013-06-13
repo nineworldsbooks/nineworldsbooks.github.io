@@ -66,10 +66,6 @@ To ease deployment, the code should have as few dependencies as possible. Langua
 	KNOWN USERS ------------------------------------------------------------------------|
 	| id    | name  | public key                                                        |
 	|-------|-------|-------------------------------------------------------------------|
-	| 1     | jsrn  | -----BEGIN PUBLIC KEY-----                                        |
-	|       |       | // public key goes here                                           |
-	|       |       | -----END PUBLIC KEY-----                                          |
-	|-------|-------|-------------------------------------------------------------------|
 	|  ...  |  ...  |  ...                                                              |
 
 	FOLLOWING                   FOLLOWERS                   USERDETAILS ----------------|
