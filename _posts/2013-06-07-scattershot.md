@@ -80,7 +80,7 @@ To ease deployment, the code should have as few dependencies as possible. Langua
 	                                                               | 1  | Verified      |
 	                                                               | 2  | Not Verified! |
 
-The Scattershot repo can be found [here](https://github.com/jsrn/Scattershot).
+Want to contribute? The Scattershot repo can be found [here](https://github.com/jsrn/Scattershot).
 
 ### Good Reads
 
