@@ -68,7 +68,7 @@ To ease deployment, the code should have as few dependencies as possible. Langua
 	|-------|-------|-------------------------------------------------------------------|
 	|  ...  |  ...  |  ...      |  ...        |  ...       |  ...                       |
 
-	FOLLOWING        USERDETAILS --------------------------------------        FOLLOWERS 
+	FOLLOWING        INSTANCEDETAILS ----------------------------------        FOLLOWERS 
 	| userid |       | name | avatar | aboutme | website | privatekey  |       | userid |
 	|--------|       |------|--------|---------|---------|-------------|       |--------|
 	|  ...   |       |  ... |  ...   |  ...    |  ...    |  ...        |       |  ...   |
