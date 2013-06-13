@@ -63,17 +63,17 @@ To ease deployment, the code should have as few dependencies as possible. Langua
 
 ### Database Layout
 
-	KNOWN USERS ------------------------------------------------------------------------|
-	| id    | name  | public key                                                        |
+	KNOWNUSERS -------------------------------------------------------------------------|
+	| id    | name  | publickey                                                         |
 	|-------|-------|-------------------------------------------------------------------|
 	|  ...  |  ...  |  ...                                                              |
 
 	FOLLOWING                   FOLLOWERS                   USERDETAILS ----------------|
-	| userid |                  | userid |                  | public key | private key  |
+	| userid |                  | userid |                  | publickey  | privatekey   |
 	|--------|                  |--------|                  |------------|--------------|
 	|  ...   |                  |  ...   |                  |  ...       |  ...         |
 
-	MESSAGES --------------------------------------|               VERIFICATIONSTATUSES |
+	MESSAGES --------------------------------------|               VERIFICATIONSTATUSES
 	| id | userid | message | verificationstatusid |               | id | status        |
 	|----------------------------------------------|               |----|---------------|
 	| .. |  ...   |  ...    |  ...                 |               | 0  | Unverified    |
