@@ -38,6 +38,8 @@ The second problem (somewhat exacerbated by the immediate solution to the first)
 
 The interesting problem posed by decentralising a service is maintaining trust between instances. With a service like Twitter, we can be sure that a user is genuine, even if they aren't who they say they are. How can we be sure that the data coming from untrusted servers is reliable? How can we verify that a status update really came from a certain instance? We need a way to securely sign messages. Fortunately, [there are mechanisms](http://en.wikipedia.org/wiki/Digital_signature) by which one can tie a known sender to a message.
 
+On account creation, [PHPSecLib](http://phpseclib.sourceforge.net/) is used to generate a pair of RSA keys. These are then stored in the SQLite db to be used for signing/encrypting messages.
+
 ### Deployment
 
 To ease deployment, the code should have as few dependencies as possible. Languages and frameworks that require complicated installation or configuration should be avoided. Despite its flaws, PHP has the advantage here. It's superbly easy to set up, there are a plethora of libraries available for it, and everyone knows it. The full apache-mysql-php stack can be deployed in minutes on any [Windows](http://www.wampserver.com/en/) or [Linux](http://linux.die.net/man/8/apt-get) machine.
