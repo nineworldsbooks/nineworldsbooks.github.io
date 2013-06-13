@@ -77,6 +77,13 @@ To ease deployment, the code should have as few dependencies as possible. Langua
 	|--------|                  |--------|                  |------------|--------------|
 	|  ...   |                  |  ...   |                  |  ...       |  ...         |
 
+	MESSAGES                                                       VERIFICATIONSTATUSES
+	| id | userid | message | verificationstatusid |               | id | status        |
+	|----------------------------------------------|               |----|---------------|
+	| .. |  ...   |  ...    |  ...                 |               | 0  | Unverified    |
+	                                                               | 1  | Verified      |
+	                                                               | 2  | Not Verified! |
+
 The Scattershot repo can be found [here](https://github.com/jsrn/Scattershot).
 
 ### Good Reads
