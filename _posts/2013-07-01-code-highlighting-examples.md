@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Testing Code Highlighting"
+title: "Code Highlighting Examples"
+tagline: "for personal reference"
 description: ""
-category: 
+category: programming
 tags: []
 ---
 {% include JB/setup %}
