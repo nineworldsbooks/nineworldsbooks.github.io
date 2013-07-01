@@ -4,7 +4,7 @@ title: "Code Highlighting Examples"
 tagline: "for personal reference"
 description: ""
 category: programming
-tags: []
+tags: [code highlighting, syntax highlighting]
 ---
 {% include JB/setup %}
 
