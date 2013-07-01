@@ -25,4 +25,10 @@ def foo
 end
 {% endhighlight %}
 
-Works like a charm.
+Works like a charm, just be sure to include
+
+{% highlight html %}
+<link href="{{ BASE_PATH }}/stylesheets/stylesheet_of_choice.css" rel="stylesheet">
+{% endhighlight %}
+
+in your default.html, and GitHub pages will do the rest.
