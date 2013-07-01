@@ -14,14 +14,14 @@ I decided to try to set up code highlighting for this blog using the inbuilt fun
 
 {% highlight python %}
 for i in range( 100 ):
-	print i
+     print i
 {% endhighlight %}
 
 #### Ruby
 
 {% highlight ruby %}
 def foo
-  puts 'foo'
+     puts 'foo'
 end
 {% endhighlight %}
 
