@@ -10,7 +10,7 @@ tags: [undead, announcement, ultima online]
 
 **This post is for the players of [Project Brains](https://github.com/jsrn/ZUOmbies), a zombie survival RPG server based on top of RunUO.**
 
-Greetings, citizens of Blackwell,
+Greetings, citizens of Blackwell.
 
 For the past few weeks, I have been hard at work implementing some new features for the shard. As I'm sure you noticed, there's an apocalypse going on, and all sorts of undead nasties plagueing the shadows, waiting for their chance to take the life blood of the innocent.
 
