@@ -44,7 +44,7 @@ It is also where defeated undead may be brought back to un-life.
 
 ### Evil
 
-Your contributions to enacting the will of the Guardian are quantified by *evil points* (EP). You can gain EP through general play, by hunting animals or humans (most profitably players), or you can be awarded EP through individual prowess during events led by an undead GM character. These points can be spent on a variety of rewards, as well as undead powers such as necromancy and spirit speak.
+Your contributions to enacting the will of the Guardian are quantified by *evil points* (EP). You can gain EP through general play, by hunting animals or humans (most profitably players, or animals that are useful to humans), or you can be awarded EP through individual prowess during events led by an undead GM character. These points can be spent on a variety of rewards, as well as undead powers such as necromancy and spirit speak.
 
 Even the undead need supplies, so EP can be gained by depositing items such as certain weapons or body parts in special resource chests.
 
@@ -56,7 +56,9 @@ As an undead minion, the Guardian grants you access to powers chanelled from the
 
 ### Healing
 
-The undead have had their flesh stripped away, and their organs are decaying and torn. They cannot benefit from human healing techniques such as bandages and potions, but they can instead channel the life force of nearby corpses, or if no corpses are nearby, channel from the spirits at a cost of 10EP. Unlike humans, undead do not have injury points, but they have a limited amount of favour from the Guardian. Fail him too many times in a short period, and he may cease to reanimate your body. Favour is lost in the same way that injury points are gained, and can be restored at the Defiled Shrine at a rate of 10EP per point. Unlike injury points, favour will not restore naturally over time. The Guardian expects you to work for the power he grants you!
+The undead have had their flesh stripped away, and their organs are decaying and torn. They cannot benefit from human healing techniques such as bandages and potions, but they can instead channel the life force of nearby corpses, or if no corpses are nearby, channel from the spirits at a cost of 10EP. 
+
+Unlike humans, undead do not have injury points, but they have a limited amount of favour from the Guardian. Fail him too many times in a short period, and he may cease to reanimate your body. Favour is lost in the same way that injury points are gained, and can be restored at the Defiled Shrine at a rate of 10EP per point. Unlike injury points, favour will not restore naturally over time. The Guardian expects you to work for the power he grants you!
 
 The advantage to these bodily changes is that they are no longer affected by the first two levels of poison.
 
@@ -73,3 +75,7 @@ A number of smaller changes have been working their way into the code while this
 * Darker night times
 * Disguise kits are now craftable by tailors and usable by all except undead
 * You can only dismember a permadead character
+* Polearms now have a range of 2 tiles
+* Bandages now have a range of 2 tiles
+* More weapons are now throwable - just double click and fling!
+* Damage to and from other players should be more reasonable
