@@ -58,7 +58,7 @@ As an undead minion, the Guardian grants you access to powers chanelled from the
 
 The undead have had their flesh stripped away, and their organs are decaying and torn. They cannot benefit from human healing techniques such as bandages and potions, but they can instead channel the life force of nearby corpses, or if no corpses are nearby, channel from the spirits at a cost of 10EP. Unlike humans, undead do not have injury points, but they have a limited amount of favour from the Guardian. Fail him too many times in a short period, and he may cease to reanimate your body. Favour is lost in the same way that injury points are gained, and can be restored at the Defiled Shrine at a rate of 10EP per point.
 
-The advantage to these bodily changes is that they are no longer effected by the first two levels of poison.
+The advantage to these bodily changes is that they are no longer affected by the first two levels of poison.
 
 ### Additional play guidelines for the defiled
 
