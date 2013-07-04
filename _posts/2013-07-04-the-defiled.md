@@ -14,7 +14,7 @@ Greetings, citizens of Blackwell.
 
 For the past few weeks, I have been hard at work implementing some new features for the shard. As I'm sure you noticed, there's an apocalypse going on, and all sorts of undead nasties plagueing the shadows, waiting for their chance to take the life blood of the innocent.
 
-More intelligent undead threats were devised primarily by GM intervention, but today I would like to open those doors to the public, and add a system whereby players can participate in the evil side of the shard.
+More intelligent undead threats were devised primarily by GM intervention, but today I would like to open those doors to the public, and add a system whereby players can participate in the evil side of the shard. *Death is no longer the end...*
 
 It should be noted that playing as a defiled is not easy, nor is it meant to be. You have several powerful advantages over players, but the system is designed such that while you pose a dire threat, as an individual minion of the Guardian, you are at a disadvantage over the forces of good. Playing as an undead should be considered hard mode.
 
