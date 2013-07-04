@@ -8,7 +8,7 @@ tags: [undead, announcement, ultima online]
 ---
 {% include JB/setup %}
 
-**This post isn't going to make sense to most people. It's for the players of [Project Brains](https://github.com/jsrn/ZUOmbies), a zombie survival RPG server based on top of RunUO.**
+**This post is for the players of [Project Brains](https://github.com/jsrn/ZUOmbies), a zombie survival RPG server based on top of RunUO.**
 
 Greetings citizen of Blackwell,
 
