@@ -46,7 +46,7 @@ It is also where defeated undead may be brought back to un-life.
 
 Your contributions to enacting the will of the Guardian are quantified by *evil points* (EP). You can gain EP through general play, by hunting animals or humans (most profitably players), or you can be awarded EP through individual prowess during events led by an undead GM character. These points can be spent on a variety of rewards, as well as undead powers such as necromancy and spirit speak.
 
-Even the undead need supplies, so EP can be gained by depositing items such as certain weapons, or body parts, in special resource chests.
+Even the undead need supplies, so EP can be gained by depositing items such as certain weapons or body parts in special resource chests.
 
 <img src="https://dl.dropboxusercontent.com/u/11252267/Images/UO/ProjectBrains/DefiledAnnouncement/3.PNG">
 
