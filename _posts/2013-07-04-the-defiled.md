@@ -26,8 +26,7 @@ Playing as an undead allows you to provide an intelligent antagonist to the play
 
 <img src="https://dl.dropboxusercontent.com/u/11252267/Images/UO/ProjectBrains/DefiledAnnouncement/1.PNG">
 
-
-As undead minions, the defiled can pass peacefully among other undead minions such as zombies and ghosts.
+As undead minions, the defiled can pass peacefully among other undead minions such as zombies and ghosts. They do not tire, or feel pain, but for reasons not entirely clear, they are highly susceptible to silver.
 
 ### The Defiled Shrine
 
@@ -36,7 +35,6 @@ The Defiled Shrine is the centre of undead activity. The shrine is where the def
 It is also where defeated undead may be brought back to un-life.
 
 <img src="https://dl.dropboxusercontent.com/u/11252267/Images/UO/ProjectBrains/DefiledAnnouncement/2.PNG">
-
 
 *double click on the shrine to pray to the Guardian*
 
