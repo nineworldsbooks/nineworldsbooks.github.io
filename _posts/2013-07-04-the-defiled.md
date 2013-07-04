@@ -22,7 +22,7 @@ It should be noted that playing as a defiled is not easy, nor is it meant to be.
 
 *Soul corrupted, flesh stripped away, they are not what they once were. They are the defiled, and they serve only evil.*
 
-Playing as an undead allows you to provide an intelligent antagonist to the players. The actions of the defiled are defined by the undead framework, enabling more balanced and spontaneous play than can be achieved with GM interaction.
+Playing as an undead allows you to provide an intelligent antagonist to the players. The actions of the defiled are guided and defined by the game mechanics, enabling more balanced and spontaneous play than can be achieved with GM interaction.
 
 <img src="https://dl.dropboxusercontent.com/u/11252267/Images/UO/ProjectBrains/DefiledAnnouncement/1.PNG">
 
@@ -56,7 +56,7 @@ As an undead minion, the Guardian grants you access to powers chanelled from the
 
 ### Healing
 
-The undead have had their flesh stripped away, and their organs are decaying and torn. They cannot benefit from human healing techniques such as bandages and potions, but they can instead channel the life force of nearby corpses, or if no corpses are nearby, channel from the spirits at a cost of 10EP. Unlike humans, undead do not have injury points, but they have a limited amount of favour from the Guardian. Fail him too many times in a short period, and he may cease to reanimate your body. Favour is lost in the same way that injury points are gained, and can be restored at the Defiled Shrine at a rate of 10EP per point.
+The undead have had their flesh stripped away, and their organs are decaying and torn. They cannot benefit from human healing techniques such as bandages and potions, but they can instead channel the life force of nearby corpses, or if no corpses are nearby, channel from the spirits at a cost of 10EP. Unlike humans, undead do not have injury points, but they have a limited amount of favour from the Guardian. Fail him too many times in a short period, and he may cease to reanimate your body. Favour is lost in the same way that injury points are gained, and can be restored at the Defiled Shrine at a rate of 10EP per point. Unlike injury points, favour will not restore naturally over time. The Guardian expects you to work for the power he grants you!
 
 The advantage to these bodily changes is that they are no longer affected by the first two levels of poison.
 
@@ -68,7 +68,7 @@ The advantage to these bodily changes is that they are no longer affected by the
 
 ## Other Changes
 
-While this has been in the works, a number of smaller changes have been working their way into the code, and are being introduced with the same update:
+A number of smaller changes have been working their way into the code while this has been in the works, and are being introduced with the same update:
 
 * Darker night times
-* Disguise kits are now craftable by tailors
+* Disguise kits are now craftable by tailors and usable by all except undead
