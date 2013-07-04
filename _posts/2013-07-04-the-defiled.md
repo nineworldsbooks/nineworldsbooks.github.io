@@ -72,3 +72,4 @@ A number of smaller changes have been working their way into the code while this
 
 * Darker night times
 * Disguise kits are now craftable by tailors and usable by all except undead
+* You can only dismember a permadead character
