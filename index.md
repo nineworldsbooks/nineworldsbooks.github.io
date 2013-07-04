@@ -1,6 +1,5 @@
 ---
 layout: page
-tagline: my blog, now with 100% more static pages
 ---
 {% include JB/setup %}
 
