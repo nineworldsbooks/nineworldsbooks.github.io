@@ -77,3 +77,5 @@ A number of smaller changes have been working their way into the code while this
 * Bandages now have a range of 2 tiles
 * More weapons are now throwable - just double click and fling!
 * Damage to and from other players should be more reasonable
+
+*P.S. A huge thank you to Black Tom a.k.a Nathaniel Vane, who was instrumental in helping to planning and testing these features. Our daily brainstorm was a pleasure.*
