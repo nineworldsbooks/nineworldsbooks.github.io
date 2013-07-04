@@ -10,7 +10,7 @@ tags: [undead, announcement, ultima online]
 
 **This post is for the players of [Project Brains](https://github.com/jsrn/ZUOmbies), a zombie survival RPG server based on top of RunUO.**
 
-Greetings citizen of Blackwell,
+Greetings, citizens of Blackwell,
 
 For the past few weeks, I have been hard at work implementing some new features for the shard. As I'm sure you noticed, there's an apocalypse going on, and all sorts of undead nasties plagueing the shadows, waiting for their chance to take the life blood of the innocent.
 
@@ -65,3 +65,10 @@ The advantage to these bodily changes is that they are no longer affected by the
 * When defeated in PvP, you may not engage in PvP again for 6 hours.
 * When defeated in PvP, your corpse is forfeit. You should return to the defiled shrine for resurrection.
 * You may only attack the main portion of a settlement (e.g. within the main walls of Blackwell) once every 24 hours.
+
+## Other Changes
+
+While this has been in the works, a number of smaller changes have been working their way into the code, and are being introduced with the same update:
+
+* Darker night times
+* Disguise kits are now craftable by tailors
