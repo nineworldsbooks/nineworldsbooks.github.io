@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "blocked by websense"
-tagline: "think of the children!"
+title: "Blocked by Websense"
 description: ""
 category: misc
 tags: [censorship, internet filters, websense]
