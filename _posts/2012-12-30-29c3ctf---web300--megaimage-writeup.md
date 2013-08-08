@@ -19,4 +19,4 @@ With some tinkering, I managed to successfully exploit the SQLi to get the flag.
 
 <img src="/images/web300-1.png">
 
-<img src"/images/web300-2.png">
+<img src="/images/web300-2.png">
