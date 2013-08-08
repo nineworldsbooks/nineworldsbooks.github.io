@@ -7,7 +7,7 @@ tags: [phdays, phdays quals, ctf]
 ---
 {% include JB/setup %}
 
-*[This post is mirrored from my old blog.]*
+*This post is mirrored from my old blog.*
 
 This was an odd one. We were given a binary, and two hints: "limbo" and "inferno". After a quick google, we find out that "limbo" is a programming language intended to be run on the "inferno" operating system. Inferno can either be run as a stand-alone OS, usually on embedded systems, or as an application within a parent OS. I elected the latter, and before long had a working install of Inferno.
 

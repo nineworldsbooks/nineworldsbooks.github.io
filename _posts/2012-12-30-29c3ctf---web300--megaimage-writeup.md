@@ -7,7 +7,7 @@ tags: [29c3ctf, ctf]
 ---
 {% include JB/setup %}
 
-*[This post is mirrored from my old blog.]*
+*This post is mirrored from my old blog.*
 
 This was a fun one. The challenge site provided a file upload control, which allowed us to upload images to the site. Upon uploading an image, the image would be displayed under a new file name, along with the associated Image Description, GPS Longitude and GPS Latitude tags.
 

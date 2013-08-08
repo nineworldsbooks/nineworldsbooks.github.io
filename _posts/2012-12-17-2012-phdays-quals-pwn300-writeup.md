@@ -7,7 +7,7 @@ tags: [phdays, phdays quals, ctf]
 ---
 {% include JB/setup %}
 
-*[This post is mirrored from my old blog.]*
+*This post is mirrored from my old blog.*
 
 We were presented with a simple site. It was the admin control panel for the oppressive South Park PD. It allowed the cruel police of South Park to select a citizen, and one of three horrible actions. To teach them a lesson, we were to extract the flag from /etc/passwd.
 

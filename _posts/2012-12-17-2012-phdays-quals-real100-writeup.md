@@ -7,7 +7,7 @@ tags: [phdays, phdays quals, ctf]
 ---
 {% include JB/setup %}
 
-*[This post is mirrored from my old blog.]*
+*This post is mirrored from my old blog.*
 
 The task was to retrieve the flag from a website. The website was built on an open source framework, and so included a link to the source, hosted on GitHub. There wasn't much to it, apart from the comments sections of news articles, and so it was pretty easy to find some vulnerable code:
 

@@ -7,7 +7,7 @@ tags: [29c3ctf, ctf]
 ---
 {% include JB/setup %}
 
-*[This post is mirrored from my old blog.]*
+*This post is mirrored from my old blog.*
 
 This challenge required the extraction of the key from the database, using a regex as a search. Knowing from IRC that all keys contained either 29C3 or 29c3, it was relatively simple to narrow down the potential keys to the correct one:
 

@@ -7,7 +7,7 @@ tags: [GitS, ghost in the shellcode, ctf]
 ---
 {% include JB/setup %}
 
-*[This post is mirrored from my old blog.]*
+*This post is mirrored from my old blog.*
 
 Title: surtA
 Points: 350
