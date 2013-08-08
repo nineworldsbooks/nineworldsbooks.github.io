@@ -36,6 +36,5 @@ Model the spread of disease through a randomly generated population. \[Javascrip
 
 ### Other Pages
 
-[My gists](https://gist.github.com/jsrn)  
-[ITV Show Generator](http://jsrn.github.io/itvgen)  
-[Wound-o-Matic](http://jsrn.github.io/woundomatic)
+[My Gists](https://gist.github.com/jsrn)  /
+[My GitHub](http://github.com/jsrn)
