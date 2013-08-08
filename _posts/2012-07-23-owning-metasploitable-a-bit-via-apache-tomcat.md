@@ -7,7 +7,7 @@ tags: [pentesting, metasploitable]
 ---
 {% include JB/setup %}
 
-//[This post is mirrored from my old blog.]//
+*[This post is mirrored from my old blog.]*
 
 While browsing Twitter, I saw a link to a startup going by the name of HackAServer. In their own words, "HackaServer is an online marketplace between PenTesters and companies with a IT&C infrastructure that requires pentesting, and aims to lower the costs and deliver the best quality to price ratio for manual penetration tests using crowdsourcing."
 
