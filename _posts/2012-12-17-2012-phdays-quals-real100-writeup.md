@@ -12,10 +12,12 @@ tags: [phdays, phdays quals, ctf]
 The task was to retrieve the flag from a website. The website was built on an open source framework, and so included a link to the source, hosted on GitHub. There wasn't much to it, apart from the comments sections of news articles, and so it was pretty easy to find some vulnerable code:
 
 {% highlight php %}
+<?php
 $sql = "INSERT INTO `comments` SET `news_id` = " . (int)$id .
 ",`username` = " . $this->db->quote($data['username']). 
 ",`text` = " . $this->db->quote($data['text']). 
 ",`date_posted` = NOW(), `ip` = INET_ATON('" . $data['ip'] . "')";  
+?>
 {% endhighlight %}
 
 Sweet. Looks like if we can get our payload into `$data['ip']` we can inject into the query. Luckily, elsewhere in the code, we're shown that if `HTTP_X_FORWARDED_FOR` is set, that is the IP address that is used. I made a test comment, and sent the request on over to Burp Repeater.
