@@ -5,9 +5,11 @@ layout: page
 
 ### Recent Posts
 
-{% for post in site.posts %}
+{% for post in site.posts limit: 7 %}
   {{ post.date | date_to_string }} >> [{{post.title}}]({{ BASE_PATH }}{{ post.url }})  
 {% endfor %}
+
+*This is only the seven most recent posts. You can browse through the whole lot in the <a href="{{ BASE_PATH }}categories.html">category list</a> or <a href="{{ BASE_PATH }}archive.html">archive</a>.*
 
 ### Main Projects
 
