@@ -3,7 +3,6 @@ layout: page
 ---
 {% include JB/setup %}
 
-*Content migration coming soon.*
 <div style="float: left; width: 60%;">
 <h3>Main Projects</h3>
 
