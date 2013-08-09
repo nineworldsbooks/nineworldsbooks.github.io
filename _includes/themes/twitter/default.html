@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>Nine Worlds</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -34,6 +34,7 @@
   </head>
 
   <body>
+    <!--
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
@@ -46,15 +47,18 @@
         </div>
       </div>
     </div>
+    -->
 
     <div class="container-narrow">
+
+      <a href="index.php" style="margin: 20px auto 0 auto; width: 892px; display: block;"><img class="nw_header" src="/images/banner.png"></a>
 
       <div class="content">
         {{ content }}
       </div>
       <hr>
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        <p>&copy; {{ site.time | date: '%Y' }} R. Thor
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>, 
           <a href="http://pages.github.com/">GitHub pages</a> 
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>

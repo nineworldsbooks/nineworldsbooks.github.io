@@ -1,7 +1,7 @@
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
-  max-width: 700px; }
+  max-width: 1000px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
@@ -63,3 +63,14 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+body {
+  background: fixed center center url('/images/swordbg.jpg') #000;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.nw_header {
+  width: 892px;
+}
