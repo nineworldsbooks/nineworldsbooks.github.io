@@ -111,3 +111,10 @@ h2 a
 {
   color: black;
 }
+
+.page-header
+{
+  padding-bottom: 0;
+  margin: 0;
+  border-bottom: 0px solid #eeeeee;
+}
