@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Race of Dvergar   Highlight"
+title: "Race of Dvergar - Highlight"
 description: ""
 category: 
 tags: []

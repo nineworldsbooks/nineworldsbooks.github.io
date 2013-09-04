@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Horizon is bright"
+title: "The horizon is bright"
 description: ""
 category: 
 tags: []
