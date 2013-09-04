@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lustria);
+
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
@@ -69,6 +71,7 @@ body {
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
+  font-family: 'Lustria', serif;
 }
 
 .nw_header {
