@@ -67,7 +67,7 @@
   color: #FFF; }
 
 body {
-  background: fixed center center url('/images/mapbg1.jpg') #000;
+  background: fixed top center url('/images/mapbg1.jpg') #000;
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
