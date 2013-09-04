@@ -9,12 +9,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : jsrn's digital notepad
-tagline: Digital Notepad
+title : Nine Worlds Books
+tagline: by R. Thor
 author :
-  name : jsrn
+  name : R. Thor
   email : james.srn@gmail.com
-  github : jsrn
+  github : username
   twitter : username
   feedburner : feedname
 
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://jsrn.github.io
+production_url : http://nineworldsbooks.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -126,3 +126,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+paginate: 5
