@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The horizon is bright"
+title: "The horizon is bright!"
 description: ""
 category: 
 tags: []
@@ -25,8 +25,8 @@ So what's next?
  2. This goes hand in hand with nr. 1, as I will continue revising the Bastion with help from Scribophile.com while I'm working on Mists of Llorn. 
  3. Re-write Blood &amp; Rain. 
  4. Re-write The Road to Askeldúrin. 
- 5. Re-write Black Standards. </strong>
-
+ 5. Re-write Black Standards.
+ 
 This to-do list is subject to change of course, but it gives an idea of where I'm headed. 
 
 Stay tuned on the facebook page or nineworldsbooks.com (or both!)
