@@ -34,5 +34,17 @@ layout: page
 </div>
 
 <div id="sidebar">
-  Hallo. This is where all those menu links and fb stuff are going.
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-like-box" style="margin-bottom: 5px;" data-href="https://www.facebook.com/pages/Nine-Worlds/330837876929869" data-width="217" data-show-faces="true" data-border-color="#C4B994" data-stream="false" data-header="false"></div>
+
+  <a href="https://twitter.com/NineWorldsBooks" class="twitter-follow-button" data-show-count="false" style="width: 100%; text-align: center;">Follow @NineWorldsBooks</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
 </div>
