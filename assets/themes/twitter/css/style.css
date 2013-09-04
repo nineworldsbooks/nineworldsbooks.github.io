@@ -74,3 +74,11 @@ body {
 .nw_header {
   width: 892px;
 }
+
+.post
+{
+  background-color: #C4B994;
+  border: solid black 1px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
