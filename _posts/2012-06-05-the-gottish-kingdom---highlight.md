@@ -19,9 +19,7 @@ Today, the Gottish Kingdom is one of the major powers in Midgard alongside the K
 
 It is an absolute monarchy that upholds the values of strength and bravery but has never been known to engage in war for the sake of territorial claim as they have no interest in any other territory than Gotland.
 
-&nbsp;
-
 <em>"No matter the quality of insults, weapons you wield, or your prowess with either, you'll never find yourself striking fear into the heart of a true Gott..."</em>
 <strong>- Leograin Koltar, Second High Thane of Gotland.</strong>
 
-[caption id="" align="aligncenter" width="670" caption="High Thane Teaser"]<img title="A Map of Midgard" src="http://i.imgur.com/0AN5n.jpg" alt="High Thane Teaser" width="670" height="670" />[/caption]
+<img title="A Map of Midgard" src="http://i.imgur.com/0AN5n.jpg" alt="High Thane Teaser" width="670" height="670">
