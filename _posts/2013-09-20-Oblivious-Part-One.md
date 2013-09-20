@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-<img src="http://i.imgur.com/qeMR4nv.png">
+<img src="http://i.imgur.com/VeepaRU.png">
 
 Fire burned in his chest, thrashing against the ribcage as if trying to escape.  Around him there was only darkness and he realized he couldn‘t feel his eyelids, not knowing if they were open or closed.
 
