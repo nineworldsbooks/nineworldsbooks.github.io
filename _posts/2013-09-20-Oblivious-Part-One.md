@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+<img src="http://i.imgur.com/qeMR4nv.png">
+
 Fire burned in his chest, thrashing against the ribcage as if trying to escape.  Around him there was only darkness and he realized he couldn‘t feel his eyelids, not knowing if they were open or closed.
 
 The world shifted and darkness became light, the fire in his chest subsiding. His eyelids were heavy and he felt an uncontrollable urge to close them again, but he resisted and looked through the narrow visors of his face at an autumn-stained field, cascading like a wide river of grass. He was moving across the field, his hands being pulled by someone or something, rough stalks scratching his naked backside. The world faded again.
