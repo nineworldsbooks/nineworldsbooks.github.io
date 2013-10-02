@@ -35,7 +35,7 @@ Tau narrowed his eyes, regarding her with suspicion before slowly reaching over 
 
 The cold evening air kissed at his naked flesh. It was dark outside, early evening by the looks of the sun cresting on the horizon. In one direction he saw fires and people moving around while in the other he noticed trees in the distance rising above the city. He made for the trees, edging along flapping walls and hiding behind carriages and other obstacles whenever Ihmer eyes turned in his direction. 
 
-After sneaking through a maze of huts, bare and confused, he looked upon the first tree up close and couldn’t help releasing a sigh of relief as he grasped at the tree with his right hand while holding the painful wound on his stomach with the other. *I made it*. 
+After sneaking through a maze of huts, bare and confused, he looked upon the first tree up close and couldn’t help releasing a sigh of relief as he grasped at it with his right hand while holding the painful wound on his stomach with the other. *I made it*. 
 
 A twig snapped behind him and before he could turn around to see what it was something hit the back of his head, knocking him to the ground. With his vision blurred he felt the world fading to darkness around him, catching a glimpse of two pairs of feet in front of him right as he drifted away. 
 
