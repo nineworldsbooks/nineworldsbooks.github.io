@@ -9,4 +9,3 @@ tags: []
 
 <img src="http://i.imgur.com/0AN5n.jpg">
 
-<strong>Runar Thor. </strong>
